@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+{% for eachTimeCard in allTimeEntries %}
+<p>
+
+    <a href="{% url 'nameLink %}">{{eachTimeCard.teacher}}</a>
+    <a href="{% url 'schoolLink' %}">eachTimeCard.school</a>
+
+</p>
+{% endfor %}
+
+
+<h5><a href="{% url 'newTimeCard' %}">Enter New Time Card Here</a></h5>
+
+</body>
+</html>
