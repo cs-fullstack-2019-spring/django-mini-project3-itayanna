@@ -1,3 +1,6 @@
+### POINTS: 1
+### KEY: Partial submission but doesnt implement full CRUD
+
 # Mini-Project Django
 
 THIS IS A SOLO PROJECT.
